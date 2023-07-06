@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manav Rathod</title>
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav>
+        <div class="nav-area container">
+
+            <div class="logo-container">
+                <img src="./images/manav.jpg" alt="">
+                <span class="logo-text">Manav Rathod</span>
+            </div>
+            <div class="menu">
+                <ul class="nav-list">
+                    <li><a href="#hero-section" class="nav-link">Home</a></li>
+                    <li><a href="#skill-section" class="nav-link">Skills</a></li>
+                    <li><a href="" class="nav-link">Projects</a></li>
+                    <li><a href="#demo" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-small-btn">
+                <p class="ham-menu-open"><i class="fa-solid fa-bars"></i></p>
+                <p class="ham-menu-close d-none"><i class="fa-solid fa-xmark"></i></i></p>
+            </div>
+            <div class="menu-small">
+                <ul class="small-nav-list">
+                    <li><a href="#hero-section" class="sm-nav-link">Home</a></li>
+                    <li><a href="#skill-section" class="sm-nav-link">Skills</a></li>
+                    <li><a href="" class="sm-nav-link">Projects</a></li>
+                    <li><a href="#demo" class="sm-nav-link">Contact</a></li>
+                    <button class="secondary-btn" id="sec-btn-menu">Download Resume</button>
+                    <div class="links-box" id="sm-menu-link">
+                        <a class="link-ele" href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a class="link-ele" href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a class="link-ele" href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="link-ele" href=""><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="container hero-container " id="hero-section">
+        <div class="hero-content">
+            <span>Hey, I'm</span>
+            <h1>Manav Rathod</h1>
+            <p>I’m here showcasing my journey as a <br>
+                full stack web developer.</p>
+            <div class="links-box">
+                <a class="link-ele" href=""><i class="fa-brands fa-instagram"></i></a>
+                <a class="link-ele" href=""><i class="fa-brands fa-twitter"></i></a>
+                <a class="link-ele" href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a class="link-ele" href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="hero-button">
+                <button class="primary-btn">Projects</button>
+                <button class="secondary-btn">Download Resume</button>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img class="manav-img" src="./images/hero.png" alt="">
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <div id="skill-section">
+        <div class="skill-content container">
+            <div class="about ">
+                <h2 class="light-title">ABOUT ME</h2>
+                <p>I’m a self taught full stack web developer, looking for opportunities to display and enhance my
+                    skills. You can check my projects below.</p>
+            </div>
+            <div class="skill">
+                <h2 class="light-title">SKILL STACK</h2>
+                <div class="skill-stack">
+                    <p class="skill-box">HTML</p>
+                    <p class="skill-box">CSS</p>
+                    <p class="skill-box">JavaScript</p>
+                    <p class="skill-box">Bootstrap</p>
+                    <p class="skill-box">React</p>
+                    <p class="skill-box">Next.js</p>
+                    <p class="skill-box">Express.js</p>
+                    <p class="skill-box">MongoDB</p>
+                    <p class="skill-box">MySQL</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="demo"></div>
+    <div class="demo"></div>
+    <div class="demo"></div>
+    <div class="demo" id="demo"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+
+
+</html>
